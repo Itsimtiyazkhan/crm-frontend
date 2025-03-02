@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  max-width: 150px;
+}
+.form input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.table th {
+  background: #007bff !important;
+  color: white !important;
+}

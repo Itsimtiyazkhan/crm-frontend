@@ -1,0 +1,89 @@
+.container {
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* h2 {
+  margin-bottom: 20px;
+} */
+
+.table {
+  background: white;
+}
+
+.btn {
+  margin-right: 5px;
+}
+
+/* .container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+} */
+/* 
+h2 {
+  text-align: center;
+} */
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+.form button {
+  padding: 8px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.table button {
+  margin-right: 5px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.table button:first-child {
+  background: green;
+  color: white;
+}
+
+.table button:last-child {
+  background: red;
+  color: white;
+}

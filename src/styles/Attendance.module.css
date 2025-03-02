@@ -1,0 +1,114 @@
+.container {
+  /* max-width: 800px;
+  margin: 0 auto; */
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* 
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+} */
+
+/* Filter Container */
+.filterContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.filterContainer label {
+  font-weight: bold;
+}
+
+.filterContainer select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* input,
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+} */
+
+/* button {
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+} */
+
+/* Attendance Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  background: #f4f4f4;
+}
+
+.editBtn {
+  background: #ffc107;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.deleteBtn {
+  background: #dc3545;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.editBtn:hover {
+  background: #e0a800;
+}
+
+.deleteBtn:hover {
+  background: #c82333;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  .table {
+    font-size: 14px;
+  }
+}

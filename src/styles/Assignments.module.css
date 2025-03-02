@@ -1,0 +1,108 @@
+.container {
+  /* max-width: 800px;
+  margin: 20px auto; */
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.input,
+.textarea,
+.select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+.button {
+  background: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: #218838;
+}
+
+.list {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  background: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.assignmentInfo {
+  flex-grow: 1;
+}
+
+.deadline {
+  font-size: 14px;
+  color: #888;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.editButton {
+  background: #ffc107;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.editButton:hover {
+  background: #e0a800;
+}
+
+.deleteButton {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background: #c82333;
+}
